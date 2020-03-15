@@ -62,7 +62,7 @@ pub enum RequestContext {
     ApiGateway {
         //pub path: String,
         account_id: String,
-        resource_id: String,
+        resource_id: Option<String>,
         stage: String,
         request_id: String,
         resource_path: String,
